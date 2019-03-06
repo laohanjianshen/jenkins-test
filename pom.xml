@@ -10,7 +10,7 @@
     </parent>
     <groupId>com.xpc</groupId>
     <artifactId>jenkins-test</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <!--<version></version>-->
     <name>jenkins-test</name>
     <description>Demo project for Spring Boot</description>
 
@@ -36,6 +36,7 @@
     </dependencies>
 
     <build>
+        <finalName>docker-test</finalName>
         <plugins>
             <plugin>
                 <groupId>org.springframework.boot</groupId>
